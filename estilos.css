@@ -1,0 +1,158 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.contenedor{
+    display: flex;
+}
+
+.subcontenedor{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+}
+.slide-img{
+    height: 100vh;
+    box-shadow: 4px 4px 40px  rgb(0,0,0,.50);
+}
+
+.inicio-registrar{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.titulo{
+    margin-right: 40px;
+    margin-bottom: 50px;
+    margin-top:50px;
+    font-family: 'Roboto Slab';
+    writing-mode: tb-rl;
+    font-size: 30px;
+    padding: 5%;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.linea{
+    width: 40px;
+    height: 3px;
+    background-color: #db4a39;
+}
+
+.titulo.active, .titulo:hover{
+    background-color: #db4a39;
+    color: #ffff;
+    transition: .7s;
+}
+
+.marvel-img{
+    width: 90%;
+    display: block;
+    margin: auto;
+    
+}
+
+.texto-iniciar-sesion{
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: 55px;
+
+}
+
+.texto-iniciar-sesion-continuar{
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.fa-user , .fa-lock ,.fa-at{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+	transform: translateY(-50%);
+}
+
+.datos{
+    position: relative;
+    margin-top:20px;
+    display: flex;
+    
+}
+
+.ingresar-datos{
+    background-color: #C4C4C4;
+    box-shadow: 0px 0px 20px  rgb(0,0,0,.25);
+    border: 0;
+    width: 400px;
+    height: 40px;
+    font-family: 'Roboto Slab';
+    font-size: 15px;
+    padding-left: 50px;
+}
+.r-contraseña{
+    text-align: end;
+}
+.recuerdo-contraseña{
+    font-family: 'Roboto Slab';
+    font-size: 12px;
+}
+.boton{
+    background-color: #B40817;
+    width: 200px;
+    height: 40px;
+    display: block;
+    margin: auto;
+    margin-top:20px;
+    box-shadow: 0px 0px 20px  rgb(0,0,0,.25);
+    border: 0;
+    color: #ffff;
+    font-family: 'Roboto Slab';
+    font-size: 15px;
+}
+::placeholder {
+    font-family: 'Roboto Slab';
+    font-size: 15px;
+}
+
+.terminos{
+    font-family: 'Roboto Slab';
+    font-size: 12px;
+    text-align: end;
+    margin-top: 10px;
+}
+
+.separador-o{
+    text-align: center;
+    font-family: 'Roboto Slab';
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.redes-sociales{
+    display: flex;
+    justify-content: center;
+    margin-top:5px
+}
+
+.fa-twitter{
+    margin-left: 50px;
+    margin-right: 50px;
+    color:#00acee;
+    font-size: 35px;
+}
+
+.fa-facebook{
+    color:#3b5998;
+    font-size: 35px;
+}
+
+.fa-google{
+    color:#db4a39;
+    font-size: 35px;
+}
